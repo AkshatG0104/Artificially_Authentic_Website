@@ -1,0 +1,333 @@
+<!--Reference number 1-->
+<!doctype html>
+<html lang="en">
+    <title>Artificially Authentic</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="Favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v5.min.js" defer></script>
+    <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
+    <script src="https://d3js.org/d3-axis.v1.min.js" defer></script>
+    <script src="GoldProgrammingJS.js" defer></script>
+    <script src="GoldChart1.js" defer></script>
+    <script src="GoldChart2.js"></script>
+    <link rel="stylesheet" href="GoldDesign.css">
+  </head>
+  <!----------------------------------------Start of Body----------------------------------------------------------->
+  <body onload="main()">
+    <!-------------------------------IntroButtons and IntroPara---------------------------------->
+    <div class="container-fluid" id="IntroPara">
+      <!-------------------------------navbar---------------------------------->
+      <div class="navbarBegin">
+        <img src="ArtificiallyAuthenticLogo.png" class="logo">
+        <ul>
+          <li><a href="#">Introduction</a></li>
+          <li><a href="#GraphSection">Graph</a></li>
+          <li><a href="#AIFashionSection">AI Fashion</a></li>
+          <li><a href="#UncroppedAlbumSection">Uncropped Albums</a></li>
+          <li><a href="#CartoonSection">AI Cartoons</a></li>
+        </ul>
+      </div>
+      
+      <div class="row"><br><br><br><br><br><br><br><br><br><br><br></div>
+      <div class="row">
+        <div class="col-4">
+          <button onclick="window.location.href='#GraphSection'" class="normalButton">Graph</button>
+          <button onclick="window.location.href='#UncroppedAlbumSection'" class="normalButton">Uncropped Albums</button><br>
+          <button onclick="window.location.href='#CartoonSection'" class="normalButton">AI Cartoons</button>
+          <button onclick="window.location.href='#AIFashionSection'" class="normalButton">AI Fashion</button>
+        </div>
+        <div class="col" id="IntroText"><p>
+          Artificially Authentic. This is a website that displays art that has been generated from AI Algorithms. <br>
+          On this website, you will see AI generated art based on many different themes from Album covers to fashion created by AI. <br>
+          All of the photos (including background images) have been created using AI. <br>
+          Photos that have been used in the display have come from the Instagram page @ainterestingaf.<br>
+        </p>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------IntroButtons and IntroPara---------------------------------->
+        <!---------------------------------------------------Carousal--------------------------------------------------->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid" style="background-color: #00000090;">
+                <br>
+                <div class="row">
+                  <div class="col-6">
+                    <h4 id="MarkBillElonTitle" style="color: white;">
+                      <b>What is AI?</b>
+                    </h4>
+                    <br>
+                    <p>
+                      AI art refers to art generated with the assistance of artificial intelligence. AI is a field of computer science that focuses on building machines that mimic human intelligence or even simulate the human brain through a set of algorithms.
+                      AI can construct novel works through machine learning, using various self-learning algorithms that derive knowledge from data. AI art is the result of a collaboration between an artist and an AI system, but the level of autonomy can vary considerably, and the outcome relies heavily on the quality of the data the AI learns from.
+                    </p>
+                    <p style="color: gray;"><br>Picture reference: AI portrait photo of Mark Zuckerberg, Bill Gates & Elon Musk</p>
+                  </div>
+                  <div class="col">
+                    <img src="MarkBillElon.jpg" alt="Mix of Mark Bill and Elon" id="MarkBillElonimg">
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid" style="background-color: #00000090;">
+                <br>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="RealPlayboi.jpg" alt="RealPlayboi" class="Slide3">
+                  </div>
+                  <div class="col-3">
+                    <img src="UncroppedPlayboi.jpg" alt="UncroppedPlayboi" class="Slide3">
+                  </div>
+                  <div class="col">
+                    <h4 style="color: white;">
+                      <b>History of AI-Generated Art</b>
+                    </h4>
+                    <br>
+                    <p>
+                      The origins of the concept of artificial intelligence can be traced to classical philosophers who made their mark in the quest for describing the process of human thinking as a symbolic system. However, the first proto-computers and the idea of programmable, creative machines only came around in the 19th century.
+                    </p>
+                    <p style="color: gray;"><br>On this website you will see many examples of album covers from artists that have been "Uncropped" using AI Technology. The real Album cover is the one that is most to the left and the uncropped is the one after</p>
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid" style="background-color: #00000090;">
+                <br>
+                <div class="row">
+                  <div class="col">
+                    <img src="AIFashion.jpg" alt="AIFashion" id="MarkBillElonimg">
+                  </div>
+                  <div class="col-6">
+                    <br>
+                    <p>
+                      Artificial Intelligence does not only collaborate with artists in generating novel works and sparking new ideas, but it can also help bust fraud and detect art forgeries that pollute the art world. AI tools are changing the way conservators and collectors think about art attribution.
+                      A pioneering AI system created by a Swiss company called Art Recognition made the headlines in 2021 by authenticating a disputed artwork said to be created by Peter Paul Reubens and suggesting that the painting Samson and Delilah (ca. 1609) in London’s National Gallery is not really by Rubens.
+                    </p>
+                    <p style="color: gray;"><br>You will find a section on this website that is dedicated to AI generated Fashion</p>
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid" style="background-color: #00000090;">
+                <br>
+                <div class="row">
+                  <div class="col">
+                    <img src="MonaLisaStore.jpg" alt="AIFashion" id="MarkBillElonimg">
+                  </div>
+                  <div class="col-6">
+                    <h4>
+                      <b>How to Make AI Art</b>
+                    </h4>
+                    <p>
+                      DeepDream, released by Google in 2015, is one of the more well-known AI art tools. Initially, it was invented to help scientists and engineers to visualize patterns learned by a neural network, a type of machine learning algorithm.
+                      Another simple way to create AI art is with the mobile and browser application called WOMBO Dream. The app creates generative art from a descriptive text in various pre-determined styles.
+                      GauGAN2 is NVIDIA Research's new AI model that goes even further. The model called GauGAN2, named after post-Impressionist painter Paul Gauguin creates photorealistic images from simple elements a user can draw with simple graphic tools like a paintbrush or paint bucket.
+                    </p>
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!---------------------------------------------------Carousal--------------------------------------------------->
+    <!--------------------------------------------Graph work---------------------------------------------->
+    <!--Data referenced from : https://www.forbes.com/sites/louiscolumbus/2018/01/12/10-charts-that-will-change-your-perspective-on-artificial-intelligences-growth/?sh=46c5ad8d4758-->
+    <div class="container">
+      <div class="row">
+        <h2 id="GraphSection">Revenues from the artificial intelligence for enterprise applications market worldwide, from 2016 to 2025(in million U.S. dollars</h2>
+      </div>
+      <div class="row">  
+        <div id="app">
+          <div id="chart">
+            <svg id="svg1"></svg>
+          </div>
+          <div id="data">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <p>
+          This chart shows that the use of AI has increased exponentially.<br>
+          We can predict what the revenue would be after the year 2025. Please enter a year below that is after the year 2025
+        </p>
+      </div>
+      <div class="row">
+        <form id="frm1" action="/action_page.php">
+          Year: <input type="text" name="fname"><br>
+          <input type="button" onclick="revenueCalculator()" value="Submit">
+        </form>
+        <p id="formOutput">
+          
+        </p>
+      </div>
+    </div>
+    <!--------------------------------------------Graph work---------------------------------------------->
+    <!--------------------------------------------Graph 2 work---------------------------------------------->
+    <div class="container">
+      <h4>Total online sales of the art and antiques market worldwide from 2013 to 2021 (in billion U.S. dollars) </h4>
+      <svg width=600 height=600 id="svg2"></svg>
+      <div class="row">
+        <p>
+
+        </p>
+      </div>
+    </div>
+    <!--------------------------------------------Graph 2 work---------------------------------------------->
+        <!----------------------------------------------------------------UncroppedAlbumSection----------------------------------------------------------------->
+        <h2 id="UncroppedAlbumSection">
+          Real Albums uncropped using AI Technology
+          <br>
+        </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="17Real.png" alt="Uncropped AI generated DawnFM Album Comver" class="Uncropped1">
+              <br><br>
+              <button onclick="UncroppedAlbumReveal1()" type="button" class="btn btn-dark" id="btnAlbum">Hide</button>
+            </div>
+            <div class="col" id="Reveal1">
+              <img src="17.jpg" alt="Uncropped AI generated DawnFM Album Comver" class="Uncropped1" id="Uncropped17Button">
+            </div>
+          </div>
+        </div>
+          
+        <br>
+          <div class="container">
+            <p>
+              Below are some other examples of Uncropped Albums
+            </p>
+            <img src="DawnFM.jpg" alt="Uncropped AI generated DawnFM Album Comver" class="Uncropped">
+            <img src="Testing.jpg" alt="Uncropped AI generated Testing Album Comver" class="Uncropped">
+            <img src="DS4Ever.jpg" alt="Uncropped AI generated DS4Ever Album Comver" class="Uncropped">
+            <img src="BornToDie.jpg" alt="Uncropped AI generated Born To Die Album Comver" class="Uncropped">
+    
+          </div>
+        <!----------------------------------------------------------------UncroppedAlbumSection----------------------------------------------------------------->
+        <!---------------------------------------------------------------------CartoonSection------------------------------------------------------------------->
+        <h2 id="CartoonSection">
+          The characters of The Office reimagined as Cartoons using AI Technology
+          <br>
+        </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <img src="TheOfficeCartoon2.jpg" class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="TheOfficeCartoon3.jpg"class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="TheOfficeCartoon4.jpg"class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="TheOfficeCartoon5.jpg"class="Uncropped">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <p><br>Jim Halpert</p>
+            </div>
+            <div class="col-3">
+              <p><br>Daryl Philbin</p>
+            </div>
+            <div class="col-3">
+              <p><br>Kelly Kapoor</p>
+            </div>
+            <div class="col-3">
+              <p><br>Dwight Schrute</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="TheOfficeCartoon6.jpg" class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="TheOfficeCartoon.jpg"class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="TheOfficeCartoon8.jpg"class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="TheOfficeCartoon9.jpg"class="Uncropped">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <p><br>Andy Bernard</p>
+            </div>
+            <div class="col-3">
+              <p><br>Michael Scott</p>
+            </div>
+            <div class="col-3">
+              <p><br>Pam Beesly</p>
+            </div>
+            <div class="col-3">
+              <p><br>Stanley Hudson</p>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------------------------------------------CartoonSection------------------------------------------------------------------->
+        <!---------------------------------------------------------------------AIfashionSection------------------------------------------------------------------->
+        <h2 id="AIFashionSection">
+          Fashion for Nike reimagined using AI Technology
+          <br>
+        </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <img src="AIFashion2.jpg" class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="AIFashion3.jpg"class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="AIFashion4.jpg"class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="AIFashion5.jpg"class="Uncropped">
+            </div>
+          </div>
+          <div class="row">
+            <p><br></p>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="AIFashion6.jpg" class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="AIFashion7.jpg"class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="AIFashion8.jpg"class="Uncropped">
+            </div>
+            <div class="col-3">
+              <img src="AIFashion9.jpg"class="Uncropped">
+            </div>
+          </div>
+        </div>
+        <!---------------------------------------------------------------------AIfashionSection------------------------------------------------------------------->
+  </body>
+</html>

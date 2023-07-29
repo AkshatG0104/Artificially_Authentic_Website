@@ -1,0 +1,163 @@
+p, h2,h4{
+    color: whitesmoke;
+  }
+
+
+body{
+  background-color:rgb(0, 0, 0);
+  text-align:center;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(BackGround1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#MarkBillElonimg{
+  width:350px;
+  height:350px;
+}
+#MarkBillElonTitle{
+  color: rgb(43, 67, 226);
+
+}
+#IntroPara{
+  color: rgb(0, 0, 0);
+}
+#IntroTitle{
+  color: aqua;
+}
+.CarousalIntro{
+  width:197px;
+  height:197px;
+}
+.Slide3{
+  width: 350px;
+  height: 350px;
+
+}
+.Uncropped{
+  width:250px;
+  height:250px;
+}
+.Uncropped1{
+  width:250px;
+  height:250px;
+}
+#CarousalSl1{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(BackGround1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* This is the part of the code for the graph*/
+html {
+  font-family: sans-serif;
+}
+
+#app {
+  display: flex;
+  margin: 2rem 1rem;
+}
+
+#chart {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+}
+
+#chart,
+#data {
+  margin: 0 2rem;
+  background-color: #011242a0;
+}
+
+#data ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+#data li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.bar {
+  fill: #4658fe;
+}
+
+.label {
+  fill: #ffffff;
+}
+#svg1{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(DarthInSubway.jpg);
+}
+/* This is the part of the code for the graph*/
+#IntroPara{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(city\ background-1670017372794.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* This is the part of the code for the navbar
+Reference from https://youtu.be/PgAZ8KzfhO8*/
+.navbarBegin{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 250px;
+  cursor: pointer;
+}
+.navbarBegin ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbarBegin ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.navbarBegin ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #266263;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+.navbarBegin ul li:hover:after{
+  width: 100%;
+}
+/* This is the part of the code for the navbar*/
+.normalButton:hover{
+  color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  background:#fff;
+
+
+}
+.normalButton{
+  background-color: rgba(85, 85, 85, 0.828);
+  color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255);
+  padding: 30px 30px;
+  font-size: 15px;
+}
+.bar2 {
+  fill: #46fe96;
+}
